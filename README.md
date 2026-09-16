@@ -660,22 +660,52 @@ assets/images/00-polarconnect-presentation-visual.png
 ---
 
 ## 24. Repository structure
+## 📁 Project Structure
 
 ```text
-POLARCONNECT-PS60-GitHub-Final/
-├── README.md
-├── .gitignore
-├── .env.example
+POLARCONNECT/
+├── Screenshots/
+│   └── Prototype screenshots and demo images
+│
 ├── assets/
 │   └── images/
+│       └── Presentation and project visuals
+│
+├── backend/
+│   ├── data/
+│   ├── routes/
+│   ├── services/
+│   ├── server.js
+│   ├── package.json
+│   └── README.md
+│
+├── data/
+│   ├── station_profiles.json
+│   ├── system_thresholds.json
+│   ├── sensor_config.json
+│   ├── resource_baseline.json
+│   ├── simulation_scenarios.json
+│   ├── sample_sensor_readings.csv
+│   ├── sample_weather.csv
+│   └── maintenance_log_sample.json
+│
 ├── docs/
 │   ├── HOW_POLARCONNECT_WORKS.md
-│   ├── IMAGE_DETAILS.md
-│   └── DEMO_SCRIPT.md
+│   ├── DEMO_SCRIPT.md
+│   └── IMAGE_DETAILS.md
+│
 ├── frontend/
-├── backend/
-└── data/
-```
+│   ├── public/
+│   ├── src/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+│
+├── .env.example
+├── .gitignore
+├── PROJECT_MANIFEST.json
+└── README.md
 
 The `frontend`, `backend` and `data` folders are prepared for the actual website source. **The real website source code was not available while this documentation package was generated**, so no fake implementation has been inserted.
 
