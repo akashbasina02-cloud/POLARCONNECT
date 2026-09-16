@@ -834,11 +834,7 @@ POLARCONNECT/
 ├── .gitignore
 ├── PROJECT_MANIFEST.json
 └── README.md
-
-
-
 ### What each main folder means
-
 | Folder | Purpose |
 |---|---|
 | `Screenshots/` | All original development/prototype screenshots |
