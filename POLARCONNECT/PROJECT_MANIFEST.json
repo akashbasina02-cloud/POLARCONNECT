@@ -1,0 +1,29 @@
+{
+  "project": "POLARCONNECT \u2014 PS-60",
+  "preferred_cover": "assets/images/00-polarconnect-presentation-visual.png",
+  "prototype_images": [
+    "01-water-resource-forecast.png",
+    "02-response-plans-and-resupply.png",
+    "03-fuel-forecast-and-predicted-risks.png",
+    "04-future-risk-3d-view.png",
+    "05-bharati-overview-and-simulation-lab.png",
+    "06-bharati-healthy-dashboard.png",
+    "07-maitri-interior-risk-inspection.png",
+    "08-healthy-reference-3d-view.png",
+    "09-plan-comparison-and-research-capacity.png",
+    "10-healthy-state-resource-outlook.png",
+    "11-maitri-overview-simulation-lab.png",
+    "12-polarconnect-main-dashboard.png",
+    "13-food-resource-forecast.png",
+    "14-bharati-interior-inspection.png",
+    "15-maintenance-log-and-limitations.png"
+  ],
+  "prototype_image_count": 15,
+  "documentation": [
+    "README.md",
+    "docs/HOW_POLARCONNECT_WORKS.md",
+    "docs/IMAGE_DETAILS.md",
+    "docs/DEMO_SCRIPT.md"
+  ],
+  "note": "Documentation and images are included. Actual website source code was not supplied in this chat package."
+}

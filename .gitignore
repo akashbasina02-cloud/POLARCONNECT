@@ -1,0 +1,25 @@
+# Dependencies / generated output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
