@@ -1,4 +1,4 @@
-# POLARCONNECT — PS-60
+# POLARCONNECT 
 ## Remote Management of Indian Antarctic Research Stations
 
 ![POLARCONNECT presentation visual](assets/images/00-polarconnect-presentation-visual.png)
