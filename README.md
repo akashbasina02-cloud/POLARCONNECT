@@ -660,52 +660,195 @@ assets/images/00-polarconnect-presentation-visual.png
 ---
 
 ## 24. Repository structure
-## 📁 Project Structure
+## 📁 Complete Project Structure
 
 ```text
 POLARCONNECT/
+│
 ├── Screenshots/
-│   └── Prototype screenshots and demo images
+│   ├── Screenshot 2025-11-04 152929.png
+│   ├── Screenshot 2025-11-25 111932.png
+│   ├── Screenshot 2025-12-11 183510.png
+│   ├── Screenshot 2025-12-11 183658.png
+│   ├── Screenshot 2025-12-15 210303.png
+│   ├── Screenshot 2026-01-11 215229.png
+│   ├── Screenshot 2026-02-18 192705.png
+│   ├── Screenshot 2026-02-18 192723.png
+│   ├── Screenshot 2026-04-19 222445.png
+│   ├── Screenshot 2026-04-19 225212.png
+│   ├── Screenshot 2026-04-24 195004.png
+│   ├── Screenshot 2026-04-24 195021.png
+│   ├── Screenshot 2026-04-26 113726.png
+│   ├── Screenshot 2026-07-30 105342.png
+│   ├── Screenshot 2026-08-05 212519.png
+│   ├── Screenshot 2026-08-05 215339.png
+│   ├── Screenshot 2026-08-05 224224.png
+│   ├── Screenshot 2026-08-12 225855.png
+│   ├── Screenshot 2026-08-26 123733.png
+│   ├── Screenshot 2026-08-26 123748.png
+│   ├── Screenshot 2026-08-26 123754.png
+│   ├── Screenshot 2026-09-02 112552.png
+│   ├── Screenshot 2026-09-09 172015.png
+│   ├── Screenshot 2026-09-09 172023.png
+│   ├── Screenshot 2026-09-09 172039.png
+│   ├── Screenshot 2026-09-10 131312.png
+│   ├── Screenshot 2026-09-10 131319.png
+│   ├── Screenshot 2026-09-10 132859.png
+│   ├── Screenshot 2026-09-10 132905.png
+│   ├── Screenshot 2026-09-13 003147.png
+│   ├── Screenshot 2026-09-13 023816.png
+│   ├── Screenshot 2026-09-13 024045.png
+│   ├── Screenshot 2026-09-13 030125.png
+│   ├── Screenshot 2026-09-13 031032.png
+│   ├── Screenshot 2026-09-13 133507.png
+│   ├── Screenshot 2026-09-13 135531.png
+│   ├── Screenshot 2026-09-13 135549.png
+│   ├── Screenshot 2026-09-13 135557.png
+│   ├── Screenshot 2026-09-13 135605.png
+│   ├── Screenshot 2026-09-13 135636.png
+│   ├── Screenshot 2026-09-13 135654.png
+│   ├── Screenshot 2026-09-13 135701.png
+│   ├── Screenshot 2026-09-13 135711.png
+│   ├── Screenshot 2026-09-13 135737.png
+│   ├── Screenshot 2026-09-13 135851.png
+│   ├── Screenshot 2026-09-15 213419.png
+│   ├── Screenshot 2026-09-15 222309.png
+│   ├── Screenshot 2026-09-15 222322.png
+│   ├── Screenshot 2026-09-15 222337.png
+│   ├── Screenshot 2026-09-15 222424.png
+│   ├── Screenshot 2026-09-15 222437.png
+│   ├── Screenshot 2026-09-15 222449.png
+│   ├── Screenshot 2026-09-15 222459.png
+│   ├── Screenshot 2026-09-15 222818.png
+│   ├── Screenshot 2026-09-15 222826.png
+│   ├── Screenshot 2026-09-15 222839.png
+│   ├── Screenshot 2026-09-15 222847.png
+│   ├── Screenshot 2026-09-15 222900.png
+│   ├── Screenshot 2026-09-15 223056.png
+│   ├── Screenshot 2026-09-15 223102.png
+│   ├── Screenshot 2026-09-15 223111.png
+│   ├── Screenshot 2026-09-15 223137.png
+│   ├── Screenshot 2026-09-15 230306.png
+│   ├── Screenshot 2026-09-15 231223.png
+│   ├── Screenshot 2026-09-15 231235.png
+│   ├── Screenshot 2026-09-15 231246.png
+│   ├── Screenshot 2026-09-15 231308.png
+│   ├── Screenshot 2026-09-15 231748.png
+│   ├── Screenshot 2026-09-15 231802.png
+│   ├── Screenshot 2026-09-15 231815.png
+│   ├── Screenshot 2026-09-15 231825.png
+│   ├── Screenshot 2026-09-15 231830.png
+│   ├── Screenshot 2026-09-16 005133.png
+│   ├── Screenshot 2026-09-16 005143.png
+│   ├── Screenshot 2026-09-16 005200.png
+│   ├── Screenshot 2026-09-16 095212.png
+│   ├── Screenshot 2026-09-16 095226.png
+│   ├── Screenshot 2026-09-16 095311.png
+│   ├── Screenshot 2026-09-16 095508.png
+│   ├── Screenshot 2026-09-16 095513.png
+│   ├── Screenshot 2026-09-16 095539.png
+│   ├── Screenshot 2026-09-16 095615.png
+│   ├── Screenshot 2026-09-16 095640.png
+│   ├── Screenshot 2026-09-16 095649.png
+│   ├── Screenshot 2026-09-16 095659.png
+│   ├── Screenshot 2026-09-16 095843.png
+│   ├── Screenshot 2026-09-16 095857.png
+│   ├── Screenshot 2026-09-16 095905.png
+│   ├── Screenshot 2026-09-16 095917.png
+│   ├── Screenshot 2026-09-16 095927.png
+│   └── desktop.ini
 │
 ├── assets/
 │   └── images/
-│       └── Presentation and project visuals
+│       ├── 00-polarconnect-presentation-visual.png
+│       ├── 01-water-resource-forecast.png
+│       ├── 02-response-plans-and-resupply.png
+│       ├── 03-fuel-forecast-and-predicted-risks.png
+│       ├── 04-future-risk-3d-view.png
+│       ├── 05-bharati-overview-and-simulation-lab.png
+│       ├── 06-bharati-healthy-dashboard.png
+│       ├── 07-maitri-interior-risk-inspection.png
+│       ├── 08-healthy-reference-3d-view.png
+│       ├── 09-plan-comparison-and-research-capacity.png
+│       ├── 10-healthy-state-resource-outlook.png
+│       ├── 11-maitri-overview-simulation-lab.png
+│       ├── 12-polarconnect-main-dashboard.png
+│       ├── 13-food-resource-forecast.png
+│       ├── 14-bharati-interior-inspection.png
+│       └── 15-maintenance-log-and-limitations.png
 │
 ├── backend/
 │   ├── data/
+│   │   └── stations.js
+│   │
 │   ├── routes/
+│   │   ├── maintenance.js
+│   │   ├── simulate.js
+│   │   └── stations.js
+│   │
 │   ├── services/
-│   ├── server.js
+│   │   ├── maintenanceStore.js
+│   │   └── simulationService.js
+│   │
+│   ├── .gitkeep
+│   ├── README.md
 │   ├── package.json
-│   └── README.md
+│   └── server.js
 │
 ├── data/
-│   ├── station_profiles.json
-│   ├── system_thresholds.json
-│   ├── sensor_config.json
+│   ├── README.md
+│   ├── maintenance_log_sample.json
 │   ├── resource_baseline.json
-│   ├── simulation_scenarios.json
 │   ├── sample_sensor_readings.csv
 │   ├── sample_weather.csv
-│   └── maintenance_log_sample.json
+│   ├── sensor_config.json
+│   ├── simulation_scenarios.json
+│   ├── station_profiles.json
+│   └── system_thresholds.json
 │
 ├── docs/
-│   ├── HOW_POLARCONNECT_WORKS.md
 │   ├── DEMO_SCRIPT.md
+│   ├── HOW_POLARCONNECT_WORKS.md
 │   └── IMAGE_DETAILS.md
 │
 ├── frontend/
 │   ├── public/
+│   │   └── images/
+│   │       └── polarconnect-cover.png
+│   │
 │   ├── src/
+│   │   ├── components/
+│   │   │   ├── SystemCard.jsx
+│   │   │   └── Workflow.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── styles.css
+│   │
+│   ├── README.md
 │   ├── index.html
 │   ├── package.json
-│   ├── vite.config.js
-│   └── README.md
+│   └── vite.config.js
 │
 ├── .env.example
 ├── .gitignore
 ├── PROJECT_MANIFEST.json
 └── README.md
+
+
+
+### What each main folder means
+
+| Folder | Purpose |
+|---|---|
+| `Screenshots/` | All original development/prototype screenshots |
+| `assets/images/` | Selected and organized images used for presentation/documentation |
+| `frontend/` | React/Vite user interface |
+| `backend/` | API, simulation logic and maintenance services |
+| `data/` | Demo station, sensor, weather, threshold and scenario data |
+| `docs/` | Technical explanation, demo script and image documentation |
+
+I would place this **near the bottom of the README**, after **Technology Stack**, because someone visiting your repository should first understand **POLARCONNECT and how it works**, and only then see the complete file structure.
 
 The `frontend`, `backend` and `data` folders are prepared for the actual website source. **The real website source code was not available while this documentation package was generated**, so no fake implementation has been inserted.
 
