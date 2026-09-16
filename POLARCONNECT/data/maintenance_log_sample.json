@@ -1,0 +1,23 @@
+{
+  "data_type": "prototype_demo",
+  "entries": [
+    {
+      "timestamp": "2026-09-10T09:30:00Z",
+      "station": "maitri",
+      "system": "water",
+      "equipment": "PIPE-01",
+      "action": "Pressure inspection",
+      "status": "completed",
+      "notes": "Demo maintenance entry"
+    },
+    {
+      "timestamp": "2026-09-11T14:10:00Z",
+      "station": "bharati",
+      "system": "power",
+      "equipment": "GEN-01",
+      "action": "Generator health inspection",
+      "status": "completed",
+      "notes": "Demo maintenance entry"
+    }
+  ]
+}

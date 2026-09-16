@@ -1,0 +1,36 @@
+{
+  "data_type": "prototype_demo",
+  "warning": "Not official station operational data",
+  "stations": [
+    {
+      "id": "maitri",
+      "name": "Maitri Research Station",
+      "demo_profile": {
+        "population": 24,
+        "outdoor_temp_c": -18,
+        "water_reserve_l": 12000,
+        "water_production_l_per_day": 5000,
+        "fuel_reserve_l": 18000,
+        "generation_capacity_kw": 260,
+        "base_power_demand_kw": 210,
+        "food_meals": 4200,
+        "days_until_resupply": 14
+      }
+    },
+    {
+      "id": "bharati",
+      "name": "Bharati Research Station",
+      "demo_profile": {
+        "population": 32,
+        "outdoor_temp_c": -20,
+        "water_reserve_l": 16000,
+        "water_production_l_per_day": 6500,
+        "fuel_reserve_l": 22000,
+        "generation_capacity_kw": 320,
+        "base_power_demand_kw": 255,
+        "food_meals": 5600,
+        "days_until_resupply": 18
+      }
+    }
+  ]
+}

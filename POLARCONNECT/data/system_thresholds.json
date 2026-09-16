@@ -1,0 +1,33 @@
+{
+  "data_type": "prototype_demo",
+  "thresholds": {
+    "power": {
+      "warning_utilization_percent": 90,
+      "critical_utilization_percent": 100
+    },
+    "water": {
+      "warning_reserve_percent": 30,
+      "critical_reserve_percent": 20
+    },
+    "fuel": {
+      "warning_reserve_percent": 30,
+      "critical_reserve_percent": 20
+    },
+    "food": {
+      "warning_reserve_percent": 25,
+      "critical_reserve_percent": 15
+    },
+    "indoor_temperature_c": {
+      "warning_low": 15,
+      "critical_low": 10
+    },
+    "cold_store_temperature_c": {
+      "warning_high": -12,
+      "critical_high": -8
+    },
+    "co2_ppm": {
+      "warning_high": 1000,
+      "critical_high": 1500
+    }
+  }
+}

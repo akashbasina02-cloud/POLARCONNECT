@@ -1,0 +1,47 @@
+{
+  "data_type": "prototype_demo",
+  "scenarios": [
+    {
+      "id": "healthy_reference",
+      "name": "Healthy Reference",
+      "changes": {}
+    },
+    {
+      "id": "cold_weather",
+      "name": "Sudden Cold Weather",
+      "changes": {
+        "outdoor_temp_c": -32,
+        "poor_insulation": false
+      }
+    },
+    {
+      "id": "water_pipe_leak",
+      "name": "Worn Water Pipe",
+      "changes": {
+        "worn_pipe": true,
+        "water_production_l_per_day": 3200
+      }
+    },
+    {
+      "id": "generation_loss",
+      "name": "Reduced Generation Capacity",
+      "changes": {
+        "generation_capacity_kw": 225
+      }
+    },
+    {
+      "id": "population_increase",
+      "name": "Higher Population Demand",
+      "changes": {
+        "population": 36
+      }
+    },
+    {
+      "id": "cold_store_fault",
+      "name": "Cold Storage Temperature Fault",
+      "changes": {
+        "cold_store_fault": true
+      }
+    }
+  ]
+}

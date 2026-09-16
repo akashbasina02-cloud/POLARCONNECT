@@ -1,0 +1,71 @@
+{
+  "data_type": "prototype_demo",
+  "sensors": [
+    {
+      "id": "PWR-01",
+      "system": "power",
+      "metric": "power_demand_kw",
+      "unit": "kW"
+    },
+    {
+      "id": "GEN-01",
+      "system": "power",
+      "metric": "generation_available_kw",
+      "unit": "kW"
+    },
+    {
+      "id": "WTR-01",
+      "system": "water",
+      "metric": "water_level_l",
+      "unit": "L"
+    },
+    {
+      "id": "WTR-02",
+      "system": "water",
+      "metric": "water_production_l_day",
+      "unit": "L/day"
+    },
+    {
+      "id": "FUEL-01",
+      "system": "fuel",
+      "metric": "fuel_level_l",
+      "unit": "L"
+    },
+    {
+      "id": "TEMP-01",
+      "system": "heating",
+      "metric": "indoor_temp_c",
+      "unit": "\u00b0C"
+    },
+    {
+      "id": "TEMP-02",
+      "system": "weather",
+      "metric": "outdoor_temp_c",
+      "unit": "\u00b0C"
+    },
+    {
+      "id": "AIR-01",
+      "system": "air_quality",
+      "metric": "co2_ppm",
+      "unit": "ppm"
+    },
+    {
+      "id": "COLD-01",
+      "system": "food_storage",
+      "metric": "cold_store_temp_c",
+      "unit": "\u00b0C"
+    },
+    {
+      "id": "PIPE-01",
+      "system": "water",
+      "metric": "pipe_pressure_bar",
+      "unit": "bar"
+    },
+    {
+      "id": "VIB-01",
+      "system": "equipment_health",
+      "metric": "generator_vibration_mm_s",
+      "unit": "mm/s"
+    }
+  ]
+}

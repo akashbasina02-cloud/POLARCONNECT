@@ -1,0 +1,19 @@
+{
+  "data_type": "prototype_demo",
+  "maitri": {
+    "water_l": 12000,
+    "fuel_l": 18000,
+    "food_meals": 4200,
+    "generation_capacity_kw": 260,
+    "water_production_l_per_day": 5000,
+    "population": 24
+  },
+  "bharati": {
+    "water_l": 16000,
+    "fuel_l": 22000,
+    "food_meals": 5600,
+    "generation_capacity_kw": 320,
+    "water_production_l_per_day": 6500,
+    "population": 32
+  }
+}
