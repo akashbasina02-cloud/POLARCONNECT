@@ -1,12 +1,20 @@
-# Frontend
+# POLARCONNECT Frontend
 
-Place the real POLARCONNECT website frontend source here.
+This folder contains the React/Vite frontend for POLARCONNECT PS-60.
 
-Suggested organization:
+## Run locally
 
-- `src/components/`
-- `src/pages/`
-- `src/assets/`
-- `public/`
+```bash
+npm install
+npm run dev
+```
 
-Do not upload `node_modules/`.
+## Structure
+
+```text
+package.json
+vite.config.js
+index.html
+src/
+public/
+```
