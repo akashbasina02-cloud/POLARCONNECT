@@ -684,6 +684,5 @@ The `frontend`, `backend` and `data` folders are prepared for the actual website
 ## 25. Project identity
 
 **Project:** POLARCONNECT  
-**Problem:** PS-60  
 **Theme:** Antarctic research-station remote monitoring and predictive decision support  
 **Core message:** **More research time through smarter, earlier and clearer station operations.**
